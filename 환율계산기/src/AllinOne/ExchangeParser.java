@@ -44,9 +44,9 @@ public class ExchangeParser  {
 		html = usdx2.html();
 		text = usdx2.text();
 		
-		String usd = text.substring(67, 75);
-		String eur = text.substring(127, 135);
-		String jpy = text.substring(192, 198);
+		String usd = text.substring(94, 102);
+		String eur = text.substring(154, 162);
+		String jpy = text.substring(213, 219);
 		String cad = text.substring(486, 492);
 		usdValue = stringtofloat(usd);
 		eurValue = stringtofloat(eur);
